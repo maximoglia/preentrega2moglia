@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo1{
+    width: 100px;
+    border-radius: 50;
+}
+nav{
+    text-align: center;
+}
+.menu{
+    background-color: rgb(31, 31, 93);
+    list-style-type: none;
+    padding: 0;
+    
+    margin: 20px auto;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+}
+.menu .submenu{
+    position:absolute;
+    display: none;
+}
+.menu .submenu .sub_i{
+    display: block;
+    font-size: 0.8rem;
+    padding: auto;
+
+}
+.menu .submenu .sub_1{
+   display: inline-block;
+   font-size: 0.8rem;
+   padding: auto;
+}
+.menu .item a{
+    color:rgb(120, 169, 212);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.menu .item a:hover{
+    color: rgb(216, 146, 55);
+}
+.menu .item:hover .submenu{
+    display: inline;
+
+}
+
+.section1{
+    background-image: url("../assets/img/picada1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+.section2{
+    background-image: url("../assets/img/mili1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.section1 p{
+    color: black;
+    background-color: rgb(249, 245, 240);
+    line-height: 2;
+    opacity: .5;
+    font-weight: bold;
+    
+}
+.section2 p{
+    color: black;
+    background-color: rgb(249, 245, 240);
+    line-height: 2;
+    opacity: .5;
+    font-weight: bold;
+    
+}
+.section3 p{
+    color: black;
+    background-color: rgb(249, 245, 240);
+    line-height: 2;
+    opacity: .5;
+    font-weight: bold;
+    
+}
+.section1 h3{
+    color: rgb(244, 240, 255);
+}
+
+.section2 h3{
+    color: rgb(244, 240, 255);
+}.section3 h3{
+    color: rgb(244, 240, 255);
+}
+.section3{
+    background-image: url("../assets/img/hambur1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.section11{
+    background-image: url("../assets/img/hambur2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+.section11 p{
+    color: black;
+    background-color: rgb(249, 245, 240);
+    line-height: 2;
+    opacity: .5;
+    font-weight: bold;
+    
+}
+
+.section12{
+    background-image: url("../assets/img/picada2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer{
+    background-color:rgb(31, 31, 93) ;
+    text-align: center;
+    color: antiquewhite;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.botones{
+    background-color: blanchedalmond;
+}
